@@ -52,22 +52,23 @@ Traditional portfolios often feel static and forgettable. I wanted to create an 
 
 The early planning phase focused on designing a futuristic workspace that acts as the navigation system. Several reference portfolios, desktop setup inspirations, and interactive design ideas were collected to define the overall aesthetic. Wireframes and concept sketches helped determine object placement, camera movement, interaction flow, and storytelling before development began.
 
-K.R-PORTFOLIO
-│── README.md
-│── index.html
-│── css/
-│── javascript/
-│── assets/
-│     ├── portfolio.png
-│     ├── home.png
-│     └── about.png
-## Preview
+## Portfolio Preview
 
-![Portfolio](assets/portfolio.png)
+<p align="center">
+  <img src="portfolio.png" width="100%">
+</p>
 
-![Home](assets/home.png)
+## Screenshots
 
-![About](assets/about.png)
+<p align="center">
+  <img src="home.png" width="48%">
+  <img src="about.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="contact.png" width="48%">
+</p>
+
 
 <p align="center">
   <img src="assets/portfolio.png" width="45%">
