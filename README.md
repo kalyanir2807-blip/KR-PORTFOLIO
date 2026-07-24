@@ -34,14 +34,23 @@ Showcase engineering projects through immersive 3D interactions.
 Explain:
 
 - What was your initial idea?
+My initial vision was to create more than a portfolio. I wanted to build a futuristic digital workspace where visitors could explore my projects by interacting with objects instead of navigating ordinary webpages. The workspace itself would represent my personality, interests, and engineering journey.
+
 - What inspired this portfolio?
+The project was inspired by award-winning interactive websites such as haoqi.design and Bruno Simon's portfolio, along with modern design philosophies from Apple, VisionOS, and luxury minimal interfaces. I wanted to combine their immersive storytelling with my own identity as an engineer and designer.
+
 - What features did you plan to include?
+Interactive 3D engineering workspace,
+Cursor-responsive camera movement,
+Realistic lighting and reflections,
+Light and Dark themes.
+
 - What problems were you trying to solve?
+Traditional portfolios often feel static and forgettable. I wanted to create an experience that immediately captures attention while presenting projects in a way that is engaging, intuitive, and memorable. The goal was to demonstrate both technical expertise and design thinking through interaction.
 
 ### Early Concepts
 
-Add any sketches, notes, wireframes, screenshots, references, or planning materials used during the early stages.
-
+The early planning phase focused on designing a futuristic workspace that acts as the navigation system. Several reference portfolios, desktop setup inspirations, and interactive design ideas were collected to define the overall aesthetic. Wireframes and concept sketches helped determine object placement, camera movement, interaction flow, and storytelling before development began.
 ---
 
 ## 2. Research & Ideation
