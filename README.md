@@ -1,14 +1,14 @@
-# Portfolio Name
+# KR-PORTFOLIO
 
-> Briefly describe your portfolio in one sentence.
+I am Kalyani R, an Electronics and Communication Engineering student passionate about building meaningful experiences through technology. My interests span embedded systems, IoT, PCB design, UI/UX, AI, and modern web development. This portfolio was created to showcase not only my technical projects but also my creativity, problem-solving approach, and passion for engineering. Rather than presenting information on static pages, I wanted visitors to experience my work through an immersive and interactive digital environment.
 
 ## Live Demo
 
-🌐 Portfolio: <portfolio-link>
+🌐 Portfolio: https://kalyanir2807-blip.github.io/K.R-PORTFOLIO/
 
 ## Repository
 
-📦 GitHub Repository: <repository-link>
+📦 GitHub Repository: 
 
 ---
 
