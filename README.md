@@ -1,6 +1,5 @@
 # KR-PORTFOLIO
 
-I am Kalyani R, an Electronics and Communication Engineering student passionate about building meaningful experiences through technology. My interests span embedded systems, IoT, PCB design, UI/UX, AI, and modern web development. This portfolio was created to showcase not only my technical projects but also my creativity, problem-solving approach, and passion for engineering. Rather than presenting information on static pages, I wanted visitors to experience my work through an immersive and interactive digital environment.
 
 ## Live Demo
 
@@ -8,7 +7,7 @@ I am Kalyani R, an Electronics and Communication Engineering student passionate 
 
 ## Repository
 
-📦 GitHub Repository: 
+📦 GitHub Repository: https://github.com/kalyanir2807-blip/KR-PORTFOLIO.git
 
 ---
 
@@ -16,13 +15,13 @@ I am Kalyani R, an Electronics and Communication Engineering student passionate 
 
 ## Introduction
 
-Describe yourself and explain the purpose of this portfolio.
+I am Kalyani R, an Electronics and Communication Engineering student passionate about building meaningful experiences through technology. My interests span embedded systems, IoT, PCB design, UI/UX, AI, and modern web development. This portfolio was created to showcase not only my technical projects but also my creativity, problem-solving approach, and passion for engineering. Rather than presenting information on static pages, I wanted visitors to experience my work through an immersive and interactive digital environment.
 
 ### Goals
 
-- <goal-1>
-- <goal-2>
-- <goal-3>
+- <Showcase engineering projects through immersive 3D interactions.>
+- <Demonstrate both technical and creative abilities in one platform.>
+- <Leave a lasting impression on recruiters and collaborators>
 
 ---
 
