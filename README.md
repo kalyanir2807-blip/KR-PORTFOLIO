@@ -51,6 +51,8 @@ Traditional portfolios often feel static and forgettable. I wanted to create an 
 ### Early Concepts
 
 The early planning phase focused on designing a futuristic workspace that acts as the navigation system. Several reference portfolios, desktop setup inspirations, and interactive design ideas were collected to define the overall aesthetic. Wireframes and concept sketches helped determine object placement, camera movement, interaction flow, and storytelling before development began.
+
+![PORTFOLIO Screenshot](portfolio.png)
 ---
 
 ## 2. Research & Ideation
