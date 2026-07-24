@@ -19,9 +19,9 @@ I am Kalyani R, an Electronics and Communication Engineering student passionate 
 
 ### Goals
 
-Build a memorable portfolio that stands out from traditional websites.
-Demonstrate both technical and creative abilities in one platform.
-Showcase engineering projects through immersive 3D interactions.
+<Build a memorable portfolio that stands out from traditional websites>
+<Demonstrate both technical and creative abilities in one platfor>
+<Showcase engineering projects through immersive 3D interactions>
 
 ---
 
