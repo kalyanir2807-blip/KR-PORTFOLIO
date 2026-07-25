@@ -55,26 +55,18 @@ The early planning phase focused on designing a futuristic workspace that acts a
 ## Portfolio Preview
 
 <p align="center">
-  <img src="portfolio.png" width="100%">
+  <img src="./portfolio.png" width="100%" alt="Portfolio Preview">
 </p>
 
 ## Screenshots
 
 <p align="center">
-  <img src="home.png" width="48%">
-  <img src="about.png" width="48%">
+  <img src="./home.png" width="48%" alt="Home Page">
+  <img src="./about.png" width="48%" alt="About Page">
 </p>
-
 <p align="center">
-  <img src="contact.png" width="48%">
+  <img src="./contact.png" width="48%" alt="Contact Page">
 </p>
-
-
-<p align="center">
-  <img src="assets/portfolio.png" width="45%">
-  <img src="assets/home.png" width="45%">
-</p>
-
 
 ---
 
