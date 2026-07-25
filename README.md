@@ -52,23 +52,7 @@ Traditional portfolios often feel static and forgettable. I wanted to create an 
 
 The early planning phase focused on designing a futuristic workspace that acts as the navigation system. Several reference portfolios, desktop setup inspirations, and interactive design ideas were collected to define the overall aesthetic. Wireframes and concept sketches helped determine object placement, camera movement, interaction flow, and storytelling before development began.
 
-## Portfolio Preview
-
-<p align="center">
-  <img src="./portfolio.png" width="100%" alt="Portfolio Preview">
-</p>
-
-## Screenshots
-
-<p align="center">
-  <img src="./home.png" width="48%" alt="Home Page">
-  <img src="./about.png" width="48%" alt="About Page">
-</p>
-<p align="center">
-  <img src="./contact.png" width="48%" alt="Contact Page">
-</p>
-
----
+![Description](portfolio.png)
 
 ## 2. Research & Ideation
 
