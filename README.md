@@ -231,13 +231,16 @@ Scroll-triggered content reveals
 
 ### Innovative Elements
 
-
-
 ---
 
 ## 8. Testing & Debugging
 
-### Testing Performed
+# Testing Performed
+Tested the portfolio across modern browsers (Chrome, Edge, Safari, and Firefox).
+Verified responsiveness on desktop, tablet, and mobile screen sizes.
+Checked navigation, animations, and interactive elements for smooth functionality.
+Ensured readability, consistent spacing, and color contrast.
+Optimized loading speed by reducing unnecessary assets and improving code efficiency.
 
 Describe any testing performed, such as:
 
@@ -251,7 +254,7 @@ Describe any testing performed, such as:
 
 | Issue | Cause | Solution |
 |---------|---------|---------|
-| | | |
+|animations not trigerring correctly |incorrect event handling |Refined JavaScript event listeners and animation timing |
 | | | |
 
 ---
