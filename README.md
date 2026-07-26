@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-🌐 Portfolio: https://kalyanir2807-blip.github.io/K.R-PORTFOLIO/
+🌐 Portfolio: https://kalyanir2807-blip.github.io/KR-PORTFOLIO/
 
 ## Repository
 
