@@ -60,18 +60,37 @@ The early planning phase focused on designing a futuristic workspace that acts a
 
 ## 2. Research & Ideation
 
-Explain your research process.
+Before starting development, I spent time researching modern portfolio trends, award-winning interactive websites, and emerging UI/UX techniques. Instead of creating a traditional portfolio, I wanted to build an immersive experience that reflects both my engineering background and creative mindset.
+I explored 3D web technologies, animation principles, design systems, and performance optimization to ensure the portfolio would be visually engaging without compromising usability. Every design decision was backed by research to balance aesthetics, interaction, and functionality.
 
 ### Topics Researched
+Interactive storytelling
+3D portfolio experiences
+Scroll-based animations
+Modern developer portfolios
 
-Describe any research conducted regarding:
+#UI/UX Practices
+Minimalist interface design
+Visual hierarchy
+User-centered navigation
+Glassmorphism and liquid glass UI
+Responsive layouts
+Micro-interactions
 
-- Portfolio trends
-- UI/UX practices
-- Accessibility
-- Animations
-- Personal branding
-- Other relevant topics
+#Accessibility
+Color contrast and readability
+Responsive design for all devices
+Keyboard-friendly navigation
+Optimized animations with reduced-motion considerations
+Fast loading and performance optimization
+
+#Animations
+GSAP timeline animations
+Framer Motion transitions
+Three.js object interactions
+Cursor-based parallax
+Physics-inspired motion
+Smooth scrolling using Lenis
 
 ### References
 
