@@ -102,20 +102,11 @@ https://youtu.be/FTH6Dn3AyIQ?si=dLef4uy1dclBaNLO
 ## 3. Design Process
 
 ### Design Goals
-
-Describe the goals that guided your design decisions.
+The primary goal was to create an immersive portfolio that feels like stepping into a futuristic engineering workspace rather than browsing a conventional website.
 
 ### Design Decisions
 
-Explain:
 
-- Color palette selection
-- Typography choices
-- Layout decisions
-- Component structure
-- User experience considerations
-- Accessibility considerations
-- Responsive design decisions
 
 ---
 
@@ -123,13 +114,9 @@ Explain:
 
 ### Frontend
 
-- <technology>
-- <technology>
-
-### Backend (If Applicable)
-
-- <technology>
-- <technology>
+HTML5
+CSS3
+JavaScript (ES6)
 
 ### Design Tools
 
