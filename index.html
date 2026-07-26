@@ -234,6 +234,108 @@
   .contact-link:hover{ border-color:var(--accent); background:var(--surface-strong); transform:translateX(6px); }
   .contact-link .l{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--muted); letter-spacing:.1em; text-transform:uppercase; }
   .contact-link .v{ font-family:'Space Grotesk', sans-serif; font-size:15px; }
+
+  /* ---------- contact terminal (rebuilt) ---------- */
+  #terminal .wrap.wide-terminal{ max-width:1080px; width:100%; }
+  .term-links{ margin-top:34px; display:flex; flex-direction:column; gap:12px; }
+
+  .terminal-grid{
+    margin-top:26px; display:grid; grid-template-columns:1.05fr 0.95fr; gap:44px; align-items:start;
+  }
+  @media (max-width:900px){ .terminal-grid{ grid-template-columns:1fr; } }
+
+  .term-form{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+    padding:28px; backdrop-filter:blur(18px);
+    transition:border-color .4s var(--ease), background .4s var(--ease);
+  }
+  .term-field{ margin-top:18px; }
+  .term-field:first-child{ margin-top:0; }
+  .term-field label{
+    display:block; font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--muted); margin-bottom:8px; transition:color .3s var(--ease);
+  }
+  .term-field input, .term-field textarea{
+    width:100%; background:rgba(255,255,255,0.02); border:1px solid var(--border); border-radius:10px;
+    padding:13px 14px; color:var(--text); font-family:'Inter', sans-serif; font-size:14px;
+    outline:none; resize:vertical; transition:border-color .3s var(--ease), background .3s var(--ease), box-shadow .3s var(--ease), transform .3s var(--ease);
+  }
+  body.light .term-field input, body.light .term-field textarea{ background:rgba(0,0,0,0.02); }
+  .term-field textarea{ min-height:110px; }
+  .term-field input::placeholder, .term-field textarea::placeholder{ color:var(--muted); opacity:.7; }
+  .term-field input:focus, .term-field textarea:focus{
+    border-color:var(--accent);
+    background:var(--surface-strong);
+    box-shadow:0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent), 0 0 24px color-mix(in srgb, var(--accent) 25%, transparent);
+    transform:translateY(-2px);
+  }
+  .term-field.focused label{ color:var(--accent); }
+
+  .term-send{
+    margin-top:22px; width:100%; display:flex; align-items:center; justify-content:center; gap:10px;
+    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:.12em; text-transform:uppercase;
+    padding:15px 22px; border-radius:12px; border:1px solid var(--accent); cursor:pointer;
+    background:transparent; color:var(--accent); font-weight:600;
+    transition:background .3s var(--ease), color .3s var(--ease), transform .3s var(--ease), box-shadow .3s var(--ease);
+  }
+  .term-send:hover{ background:var(--accent); color:#04121a; transform:translateY(-2px); box-shadow:0 8px 24px color-mix(in srgb, var(--accent) 35%, transparent); }
+  .term-send:active{ transform:translateY(0); }
+
+  /* celestial dog stage */
+  .dog-stage{
+    position:relative; min-height:340px; display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--border); border-radius:var(--radius); background:var(--surface);
+    overflow:hidden;
+  }
+  .dog-caption{
+    position:absolute; bottom:16px; left:0; right:0; text-align:center;
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--muted); transition:color .3s var(--ease);
+  }
+  .dog-caption b{ color:var(--accent); }
+  .dog-svg-wrap{ width:78%; max-width:300px; position:relative; }
+  .dog-svg-wrap svg{ width:100%; height:auto; display:block; overflow:visible; }
+  .star{ animation:twinkle 2.6s ease-in-out infinite; transform-origin:center; }
+  .star:nth-child(3n){ animation-delay:.4s; }
+  .star:nth-child(4n){ animation-delay:.9s; }
+  .star:nth-child(5n){ animation-delay:1.4s; }
+  @keyframes twinkle{ 0%,100%{ opacity:.45; } 50%{ opacity:1; } }
+  .dog-leg-hip{ transform-box:fill-box; transform-origin:top center; }
+  .dog-leg-knee{ transform-box:fill-box; transform-origin:top center; }
+  .dog-tail{ transform-box:fill-box; transform-origin:right center; }
+  .dog-body-group{ transform-box:fill-box; transform-origin:center; }
+
+  #dog-anim.walking .front-leg{ animation:front-hip-walk 0.85s ease-in-out infinite; }
+  #dog-anim.walking .back-leg{ animation:back-hip-walk 0.85s ease-in-out infinite; }
+  #dog-anim.walking .front-leg .dog-leg-knee{ animation:front-knee-walk 0.85s ease-in-out infinite; }
+  #dog-anim.walking .back-leg .dog-leg-knee{ animation:back-knee-walk 0.85s ease-in-out infinite; }
+  #dog-anim.walking .dog-body-group{ animation:body-bob-walk 0.85s ease-in-out infinite; }
+  #dog-anim.walking .dog-tail{ animation:tail-wag 0.55s ease-in-out infinite; }
+  #dog-anim.walking .leg-b, #dog-anim.walking .leg-b .dog-leg-knee{ animation-delay:0.425s; }
+
+  #dog-anim.running .front-leg{ animation:front-hip-run 0.3s ease-in-out infinite; }
+  #dog-anim.running .back-leg{ animation:back-hip-run 0.3s ease-in-out infinite; }
+  #dog-anim.running .front-leg .dog-leg-knee{ animation:front-knee-run 0.3s ease-in-out infinite; }
+  #dog-anim.running .back-leg .dog-leg-knee{ animation:back-knee-run 0.3s ease-in-out infinite; }
+  #dog-anim.running .dog-body-group{ animation:body-bob-run 0.3s ease-in-out infinite; }
+  #dog-anim.running .dog-tail{ animation:tail-trail 0.3s ease-in-out infinite; }
+  #dog-anim.running .leg-b, #dog-anim.running .leg-b .dog-leg-knee{ animation-delay:0.15s; }
+
+  /* real trot: hip swings the whole leg, knee flexes to lift the paw clear mid-swing then straightens to plant */
+  @keyframes front-hip-walk{ 0%{ transform:rotate(-22deg); } 50%{ transform:rotate(26deg); } 100%{ transform:rotate(-22deg); } }
+  @keyframes back-hip-walk{ 0%{ transform:rotate(-28deg); } 50%{ transform:rotate(22deg); } 100%{ transform:rotate(-28deg); } }
+  @keyframes front-knee-walk{ 0%{ transform:rotate(0deg); } 32%{ transform:rotate(-42deg); } 65%{ transform:rotate(-8deg); } 100%{ transform:rotate(0deg); } }
+  @keyframes back-knee-walk{ 0%{ transform:rotate(0deg); } 32%{ transform:rotate(-36deg); } 65%{ transform:rotate(-6deg); } 100%{ transform:rotate(0deg); } }
+  @keyframes body-bob-walk{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-4px); } }
+
+  /* gallop: legs snap through a fuller reach with sharper knee flexion during suspension, body stretches */
+  @keyframes front-hip-run{ 0%{ transform:rotate(-38deg); } 45%,55%{ transform:rotate(44deg); } 100%{ transform:rotate(-38deg); } }
+  @keyframes back-hip-run{ 0%{ transform:rotate(-46deg); } 45%,55%{ transform:rotate(40deg); } 100%{ transform:rotate(-46deg); } }
+  @keyframes front-knee-run{ 0%{ transform:rotate(0deg); } 28%{ transform:rotate(-58deg); } 58%{ transform:rotate(-6deg); } 100%{ transform:rotate(0deg); } }
+  @keyframes back-knee-run{ 0%{ transform:rotate(0deg); } 28%{ transform:rotate(-52deg); } 58%{ transform:rotate(-4deg); } 100%{ transform:rotate(0deg); } }
+  @keyframes body-bob-run{ 0%,100%{ transform:translateY(0) scaleX(1); } 50%{ transform:translateY(-8px) scaleX(1.06); } }
+  @keyframes tail-trail{ 0%,100%{ transform:rotate(-2deg); } 50%{ transform:rotate(8deg); } }
+
   footer{ position:relative; z-index:2; text-align:center; padding:40px; font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--muted); letter-spacing:.08em;}
 
   /* toast */
@@ -344,26 +446,137 @@
     </section>
 
     <section id="terminal">
-      <div class="wrap">
+      <div class="wrap wide-terminal">
         <div class="eyebrow">Contact Terminal</div>
         <h2 style="margin-top:14px; font-size:32px;">Let's build something.</h2>
-        <p style="margin-top:10px; max-width:460px;">
-Open a channel—I'd love to connect, collaborate, or discuss new ideas.
+        <p style="margin-top:10px; max-width:520px;">
+Open a channel—I'd love to connect, collaborate, or discuss new ideas. Type below and watch the sky respond.
 </p>
-        <div class="contact-grid">
-         <a class="contact-link" href="mailto:kalyanir2807@gmail.com">
-  <span><span class="l">Email</span><br><span class="v">kalyanir2807@gmail.com</span></span>
-  <span>&#8594;</span>
-</a>
+
+        <div class="term-links">
+          <a class="contact-link" href="mailto:kalyanir2807@gmail.com">
+            <span><span class="l">Email</span><br><span class="v">kalyanir2807@gmail.com</span></span>
+            <span>&#8594;</span>
+          </a>
+          <a class="contact-link" href="tel:+918281648838">
+            <span><span class="l">Secure Voice</span><br><span class="v">+91 82816 48838</span></span>
+            <span>&#8594;</span>
+          </a>
+          <a class="contact-link" id="whatsapp-link" href="https://wa.me/918281648838" target="_blank" rel="noopener">
+            <span><span class="l">WhatsApp Link</span><br><span class="v">Chat on WhatsApp</span></span>
+            <span>&#8594;</span>
+          </a>
           <a class="contact-link" href="https://www.linkedin.com/in/kalyani-r-386575380/" target="_blank" rel="noopener">
-  <span><span class="l">LinkedIn</span><br><span class="v">linkedin.com/in/kalyani-r-386575380/</span></span>
-  <span>&#8594;</span>
-</a>
+            <span><span class="l">LinkedIn</span><br><span class="v">linkedin.com/in/kalyani-r-386575380/</span></span>
+            <span>&#8594;</span>
+          </a>
           <a class="contact-link" href="https://github.com/kalyanir2807-blip" target="_blank" rel="noopener">
-  <span><span class="l">GitHub</span><br><span class="v">github.com/kalyanir2807-blip</span></span>
-  <span>&#8594;</span>
-</a>
-    
+            <span><span class="l">GitHub</span><br><span class="v">github.com/kalyanir2807-blip</span></span>
+            <span>&#8594;</span>
+          </a>
+        </div>
+
+        <div class="terminal-grid">
+          <form class="term-form" id="contact-form">
+            <div class="term-field">
+              <label for="f-name">Sender Name</label>
+              <input type="text" id="f-name" name="name" placeholder="Enter your name..." autocomplete="off" required>
+            </div>
+            <div class="term-field">
+              <label for="f-email">Sender Email</label>
+              <input type="email" id="f-email" name="email" placeholder="Enter your email..." autocomplete="off" required>
+            </div>
+            <div class="term-field">
+              <label for="f-message">Message Body</label>
+              <textarea id="f-message" name="message" placeholder="Enter details..." required></textarea>
+            </div>
+            <button type="submit" class="term-send">Send Message Transmission &#8594;</button>
+          </form>
+
+          <div class="dog-stage">
+            <div class="dog-svg-wrap">
+              <svg id="dog-anim" viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg">
+                <g class="dog-body-group">
+                  <!-- torso -->
+                  <rect x="70" y="68" width="165" height="48" rx="24" fill="#2f34a0"/>
+                  <!-- head -->
+                  <circle cx="255" cy="75" r="30" fill="#2f34a0"/>
+                  <!-- snout -->
+                  <path fill="#2f34a0" d="M276,60 L308,72 L272,96 Z"/>
+                  <!-- ear -->
+                  <path fill="#2f34a0" d="M243,50 L231,12 L263,46 Z"/>
+                  <!-- tail (hook curl) -->
+                  <path class="dog-tail" fill="#2f34a0" d="M80,96 C50,88 26,102 32,124 C38,140 60,134 60,118 C60,106 72,108 80,100 Z"/>
+
+                  <!-- muscle definition: haunch over the back legs, shoulder over the front legs -->
+                  <ellipse cx="100" cy="96" rx="27" ry="24" fill="#2f34a0"/>
+                  <ellipse cx="205" cy="92" rx="22" ry="20" fill="#2f34a0"/>
+
+                  <!-- legs: hip (thigh) + knee (shin+paw), back-left, back-right, front-left, front-right -->
+                  <g class="dog-leg-hip back-leg leg-a">
+                    <rect class="dog-thigh" x="88" y="110" width="17" height="35" rx="8" fill="#2f34a0"/>
+                    <g class="dog-leg-knee">
+                      <rect class="dog-shin" x="89" y="145" width="15" height="34" rx="6" fill="#2f34a0"/>
+                      <ellipse cx="97" cy="180" rx="10" ry="5" fill="#2f34a0"/>
+                    </g>
+                  </g>
+                  <g class="dog-leg-hip back-leg leg-b">
+                    <rect class="dog-thigh" x="120" y="112" width="16" height="34" rx="7" fill="#2f34a0"/>
+                    <g class="dog-leg-knee">
+                      <rect class="dog-shin" x="121" y="146" width="14" height="32" rx="6" fill="#2f34a0"/>
+                      <ellipse cx="128" cy="180" rx="9.5" ry="4.5" fill="#2f34a0"/>
+                    </g>
+                  </g>
+                  <g class="dog-leg-hip front-leg leg-b">
+                    <rect class="dog-thigh" x="188" y="108" width="16" height="34" rx="7" fill="#2f34a0"/>
+                    <g class="dog-leg-knee">
+                      <rect class="dog-shin" x="189" y="142" width="14" height="33" rx="6" fill="#2f34a0"/>
+                      <ellipse cx="196" cy="177" rx="9.5" ry="4.5" fill="#2f34a0"/>
+                    </g>
+                  </g>
+                  <g class="dog-leg-hip front-leg leg-a">
+                    <rect class="dog-thigh" x="214" y="104" width="17" height="35" rx="8" fill="#2f34a0"/>
+                    <g class="dog-leg-knee">
+                      <rect class="dog-shin" x="215" y="139" width="15" height="35" rx="6" fill="#2f34a0"/>
+                      <ellipse cx="223" cy="176" rx="10" ry="5" fill="#2f34a0"/>
+                    </g>
+                  </g>
+
+                  <!-- constellation lines -->
+                  <g stroke="#ffe9b3" stroke-width="1.2" opacity="0.9" fill="none">
+                    <path d="M45,112 L108,90 L168,92 L210,86 L255,76 L292,68"/>
+                    <path d="M108,90 L108,140"/>
+                    <path d="M210,86 L205,140"/>
+                  </g>
+                  <!-- constellation stars -->
+                  <g fill="#ffe9b3">
+                    <circle class="star" cx="45" cy="112" r="3"/>
+                    <circle class="star" cx="108" cy="90" r="2.6"/>
+                    <circle class="star" cx="168" cy="92" r="2.2"/>
+                    <circle class="star" cx="210" cy="86" r="2.6"/>
+                    <circle class="star" cx="255" cy="76" r="3"/>
+                    <circle class="star" cx="292" cy="68" r="2.4"/>
+                    <circle class="star" cx="108" cy="140" r="2.2"/>
+                    <circle class="star" cx="205" cy="140" r="2.2"/>
+                    <circle class="star" cx="248" cy="18" r="2"/>
+                  </g>
+                </g>
+                <!-- isolated bright star, echoing the reference's corner sparkle -->
+                <g fill="#ffe9b3" class="star">
+                  <path d="M24,18 L27,28 L37,30 L27,32 L24,42 L21,32 L11,30 L21,28 Z"/>
+                </g>
+                <!-- ambient background stars -->
+                <g fill="#ffffff" opacity="0.6">
+                  <circle class="star" cx="300" cy="20" r="1.3"/>
+                  <circle class="star" cx="315" cy="150" r="1.4"/>
+                  <circle class="star" cx="15" cy="170" r="1.2"/>
+                  <circle class="star" cx="55" cy="45" r="1"/>
+                  <circle class="star" cx="150" cy="30" r="1.1"/>
+                </g>
+              </svg>
+            </div>
+            <div class="dog-caption" id="dog-caption">Status: <b>resting</b></div>
+          </div>
         </div>
       </div>
     </section>
@@ -643,9 +856,13 @@ function collectMaterials(obj, list){
 
 /* ---------- interaction state ---------- */
 let mouseX=0, mouseY=0, targetTiltX=0, targetTiltY=0;
+let coreSpinY=0, coreSpinX=0;
 window.addEventListener('mousemove', (e)=>{
-  mouseX = (e.clientX/window.innerWidth)*2-1;
-  mouseY = (e.clientY/window.innerHeight)*2-1;
+  const nx = (e.clientX/window.innerWidth)*2-1;
+  const ny = (e.clientY/window.innerHeight)*2-1;
+  coreSpinY += (nx-mouseX)*3.4;
+  coreSpinX += (ny-mouseY)*3.4;
+  mouseX = nx; mouseY = ny;
 });
 window.addEventListener('touchmove', (e)=>{
   if(e.touches[0]){
@@ -726,13 +943,14 @@ function animate(){
   const motionScale = reduceMotion ? 0.2 : 1;
 
   /* idle breathing + mouse parallax */
-  targetTiltX += (mouseY*0.06 - targetTiltX)*0.04;
-  targetTiltY += (mouseX*0.08 - targetTiltY)*0.04;
+  targetTiltX += (mouseY*0.16 - targetTiltX)*0.05;
+  targetTiltY += (mouseX*0.22 - targetTiltY)*0.05;
   root.rotation.x = targetTiltX * motionScale;
   root.rotation.y = targetTiltY * motionScale + Math.sin(t*0.15)*0.03*motionScale;
 
-  core.rotation.y = t*0.08;
-  core.rotation.x = Math.sin(t*0.2)*0.1;
+  coreSpinY *= 0.93; coreSpinX *= 0.93;
+  core.rotation.y = t*0.08 + coreSpinY;
+  core.rotation.x = Math.sin(t*0.2)*0.1 + coreSpinX;
   nodes.rotation.copy(core.rotation);
 
   particles.rotation.y = t*0.01;
@@ -781,6 +999,62 @@ function animate(){
 }
 animate();
 
+/* ============================================================
+   CONTACT TERMINAL — focus glow + form submit
+   ============================================================ */
+document.querySelectorAll('.term-field input, .term-field textarea').forEach(el=>{
+  const field = el.closest('.term-field');
+  el.addEventListener('focus', ()=>field.classList.add('focused'));
+  el.addEventListener('blur', ()=>field.classList.remove('focused'));
+});
+
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', (e)=>{
+  e.preventDefault();
+  const name = document.getElementById('f-name').value.trim();
+  const email = document.getElementById('f-email').value.trim();
+  const message = document.getElementById('f-message').value.trim();
+  if(!name || !email || !message){ showToast('// missing_fields — fill every box first.'); return; }
+  const subject = encodeURIComponent(`Portfolio message from ${name}`);
+  const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
+  window.location.href = `mailto:kalyanir2807@gmail.com?subject=${subject}&body=${body}`;
+  showToast('// transmission_ready — opening your mail client.');
+});
+
+/* ============================================================
+   CELESTIAL DOG — reacts to typing speed
+   ============================================================ */
+const dogEl = document.getElementById('dog-anim');
+const dogCaption = document.getElementById('dog-caption');
+let lastKeyTime = 0;
+let dogState = 'idle';
+let idleTimer = null;
+
+function setDogState(state){
+  if(dogState === state) return;
+  dogState = state;
+  dogEl.classList.remove('walking','running');
+  if(state === 'walking'){ dogEl.classList.add('walking'); dogCaption.innerHTML = 'Status: <b>walking</b>'; }
+  else if(state === 'running'){ dogEl.classList.add('running'); dogCaption.innerHTML = 'Status: <b>running</b>'; }
+  else{ dogCaption.innerHTML = 'Status: <b>resting</b>'; }
+}
+
+function onTypingActivity(){
+  const now = performance.now();
+  const gap = now - lastKeyTime;
+  lastKeyTime = now;
+
+  if(gap < 160){ setDogState('running'); }
+  else{ setDogState('walking'); }
+
+  clearTimeout(idleTimer);
+  idleTimer = setTimeout(()=>setDogState('idle'), 320);
+}
+
+document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(el=>{
+  el.addEventListener('input', onTypingActivity);
+});
+
 /* hide loader */
 window.addEventListener('load', ()=>{
   setTimeout(()=>document.getElementById('loader').classList.add('hidden'), 700);
@@ -789,4 +1063,3 @@ setTimeout(()=>document.getElementById('loader').classList.add('hidden'), 2200);
 </script>
 </body>
 </html>
-
