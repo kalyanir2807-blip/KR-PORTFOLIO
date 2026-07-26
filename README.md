@@ -95,6 +95,7 @@ Smooth scrolling using Lenis
 ### References
 
 https://youtu.be/0fYi8SGA20k?si=IH6PRG-mjzDIYIfu
+
 https://youtu.be/FTH6Dn3AyIQ?si=dLef4uy1dclBaNLO
 
 ---
@@ -177,26 +178,39 @@ Optimized assets and layouts for better performance.
 ## 6. AI Usage
 
 claude
+
 chatgpt
+
 gemini
+
 lovable
+
 dribble
 
 ### How AI Helped
 
-Explain how AI contributed to the project, such as:
-
-- Brainstorming ideas
-- Content generation or refinement
-- Debugging
-- Design suggestions
-- Accessibility improvements
-- Learning new concepts
-- Other assistance
+AI played a significant role throughout the development process by accelerating ideation, improving productivity, and assisting with problem-solving. Rather than replacing creativity, AI served as a collaborative tool that helped refine ideas and overcome technical challenges while all final design decisions and implementation remained under my control.
 
 ### Personal Contributions
 
-Explain which parts were completed, modified, reviewed, or decided by you.
+Although AI was used as a development assistant, all key decisions and creative direction were made by me.
+My contributions include:
+
+Defining the overall concept and vision of the portfolio.
+
+Selecting the design style, color palette, and visual identity.
+
+Planning the user journey and interactive experience.
+
+Designing the layout and information architecture.
+
+Organizing projects, achievements, and technical content.
+
+Reviewing, modifying, and refining AI-generated suggestions.
+
+Testing the portfolio, identifying issues, and making improvements.
+
+Ensuring the final result accurately represents my skills, creativity, and engineering journey.
 
 ---
 
@@ -204,18 +218,20 @@ Explain which parts were completed, modified, reviewed, or decided by you.
 
 ### Core Features
 
-- <feature>
-- <feature>
-- <feature>
+Interactive portfolio experience
+Futuristic engineering workspace
+Responsive design for desktop, tablet, and mobile
+Smooth animations and transitions
 
 ### Additional Features
 
-- <feature>
-- <feature>
+Cursor-based interactive effects
+Micro-interactions and hover animations
+Scroll-triggered content reveals
 
 ### Innovative Elements
 
-Describe any unique ideas, interactions, designs, or implementations that make your portfolio stand out.
+
 
 ---
 
