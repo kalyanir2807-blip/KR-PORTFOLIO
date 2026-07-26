@@ -120,55 +120,67 @@ JavaScript (ES6)
 
 ### Design Tools
 
-- <tool>
-- <tool>
+Figma
+Canva
+Adobe
 
 ### Deployment Platform
 
-- <platform>
-
----
+Visual Studio Code
+Git
+GitHub
 
 ## 5. Development Workflow
-
-Explain how the project was built from start to finish.
+The development process began with researching modern interactive portfolio websites and identifying the features that would best represent my skills and personality. After gathering inspiration, I planned the user journey, designed the interface, and structured the content. The portfolio was then built incrementally by developing the layout, adding animations, integrating 3D elements, refining user interactions, and optimizing the overall experience for responsiveness and performance.
 
 ### Milestones
 
 #### Phase 1
 
-Describe what was completed during this phase.
+# Planning & Research:
+Defined the project vision and objectives.
+Collected design inspiration from award-winning portfolio websites.
+Planned the content structure and user journey.
+Created wireframes and visual concepts.
+Selected the color palette, typography, and interaction style.
 
 #### Phase 2
 
-Describe what was completed during this phase.
+# Design & Development:
+Developed the overall page layout.
+Designed the futuristic engineering workspace.
+Added interactive UI components and animations.
+Implemented responsive layouts for different screen sizes.
+Organized project information, skills, achievements, and contact detail
 
 #### Phase 3
 
-Describe what was completed during this phase.
+# Refinement & Optimization:
+Improved animations and micro-interactions.
+Enhanced visual consistency across the portfolio.
+Optimized performance and responsiveness.
+Fixed layout and interaction issues.
+Conducted final testing and documentation before deployment.
 
 ### Challenges Faced
 
-- <challenge>
-- <challenge>
-- <challenge>
+Designing an interface that balances creativity with usability.
+Creating smooth animations without affecting performance.
+Making interactive elements intuitive rather than distracting.
 
 ### Solutions Implemented
 
-- <solution>
-- <solution>
-- <solution>
-
----
+Followed a modular and iterative development approach.
+Prioritized meaningful interactions over excessive animations.
+Optimized assets and layouts for better performance.
 
 ## 6. AI Usage
 
-### AI Tools Used
-
-List all AI tools used during development.
-
-- <tool>
-- <tool>
+claude
+chatgpt
+gemini
+lovable
+dribble
 
 ### How AI Helped
 
