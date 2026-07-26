@@ -1,3 +1,4 @@
+<img width="1229" height="721" alt="portfolio" src="https://github.com/user-attachments/assets/0f9307db-808e-4279-96e3-83e323041c61" />
 # KR-PORTFOLIO
 
 
@@ -52,9 +53,10 @@ Traditional portfolios often feel static and forgettable. I wanted to create an 
 
 The early planning phase focused on designing a futuristic workspace that acts as the navigation system. Several reference portfolios, desktop setup inspirations, and interactive design ideas were collected to define the overall aesthetic. Wireframes and concept sketches helped determine object placement, camera movement, interaction flow, and storytelling before development began.
 
-![Description](portfolio.png)
-![Description](about.png)
-![Description](contact.png)
+<img width="1440" height="900" alt="contact" src="https://github.com/user-attachments/assets/cecad2d6-fbeb-4cf6-aa67-9a722aa6cc8b" />
+<img width="1229" height="721" alt="portfolio" src="https://github.com/user-attachments/assets/38361291-e190-4314-91da-c1bc3199993d" />
+<img width="857" height="481" alt="home" src="https://github.com/user-attachments/assets/7559ff6f-21b2-4168-8fb3-40b38b703611" />
+
 
 ## 2. Research & Ideation
 
