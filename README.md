@@ -69,7 +69,7 @@ Interactive storytelling
 Scroll-based animations
 Modern developer portfolios
 
-#UI/UX Practices
+## UI/UX Practices
 Minimalist interface design
 Visual hierarchy
 User-centered navigation
@@ -77,14 +77,14 @@ Glassmorphism and liquid glass UI
 Responsive layouts
 Micro-interactions
 
-#Accessibility
+## Accessibility
 Color contrast and readability
 Responsive design for all devices
 Keyboard-friendly navigation
 Optimized animations with reduced-motion considerations
 Fast loading and performance optimization
 
-#Animations
+## Animations
 GSAP timeline animations
 Framer Motion transitions
 Three.js object interactions
@@ -94,7 +94,8 @@ Smooth scrolling using Lenis
 
 ### References
 
-List websites, portfolios, articles, videos, design inspirations, documentation, or other resources that influenced your work.
+https://youtu.be/0fYi8SGA20k?si=IH6PRG-mjzDIYIfu
+https://youtu.be/FTH6Dn3AyIQ?si=dLef4uy1dclBaNLO
 
 ---
 
