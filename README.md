@@ -276,17 +276,20 @@ https://kalyanir2807-blip.github.io/KR-PORTFOLIO/
 ## 10. Screenshots
 
 ### Home Page
-<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 17 56 PM" src="https://github.com/user-attachments/assets/4628e3cd-7e95-43e4-a76b-793600e7701b" />
-<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 17 18 PM" src="https://github.com/user-attachments/assets/a4d2e6fa-5b8a-4964-b09f-4594a68e5f11" />
-<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 18 14 PM" src="https://github.com/user-attachments/assets/8dfa8a5e-53a3-4f04-8e95-cba15bc95399" />
-<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 19 09 PM" src="https://github.com/user-attachments/assets/17b3a701-71dd-4d91-83ab-7187dac0241d" />
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 23 57 PM" src="https://github.com/user-attachments/assets/e1728f00-c235-4125-9203-07fdacfe41bc" />
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 24 07 PM" src="https://github.com/user-attachments/assets/7f554e60-fd88-40a5-b6b5-27fbcc86b050" />
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 24 17 PM" src="https://github.com/user-attachments/assets/bee189e9-ea02-4310-80e4-84fe756e7782" />
+
+
+
 
 
 ### Mobile View
 
 
-<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/e9a34ce9-9c58-4ed8-9b89-cd0fbbaaed2e" />
-<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/6ce3aa96-0965-4c81-a43d-cdc48a6f18d4" />
+<img width="738" height="1523" alt="image" src="https://github.com/user-attachments/assets/19e18c30-5eba-4ea5-b259-d6b49f9ad353" />
+<img width="738" height="1513" alt="image" src="https://github.com/user-attachments/assets/526670fe-9375-483c-81f2-9f25598f8937" />
+
 
 
 ## 11. Future Improvements
