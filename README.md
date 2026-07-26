@@ -1,4 +1,4 @@
-<img width="1229" height="721" alt="portfolio" src="https://github.com/user-attachments/assets/0f9307db-808e-4279-96e3-83e323041c61" />
+
 # KR-PORTFOLIO
 
 
