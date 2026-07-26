@@ -269,23 +269,25 @@ Describe any testing performed, such as:
 
 ### Production URL
 
-<portfolio-link>
+https://kalyanir2807-blip.github.io/KR-PORTFOLIO/
 
 ---
 
 ## 10. Screenshots
 
 ### Home Page
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 17 56 PM" src="https://github.com/user-attachments/assets/4628e3cd-7e95-43e4-a76b-793600e7701b" />
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 17 18 PM" src="https://github.com/user-attachments/assets/a4d2e6fa-5b8a-4964-b09f-4594a68e5f11" />
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 18 14 PM" src="https://github.com/user-attachments/assets/8dfa8a5e-53a3-4f04-8e95-cba15bc95399" />
+<img width="1440" height="900" alt="Screenshot 2026-07-26 at 7 19 09 PM" src="https://github.com/user-attachments/assets/17b3a701-71dd-4d91-83ab-7187dac0241d" />
 
-![Home](assets/home.png)
 
 ### Mobile View
 
-![Mobile](assets/mobile.png)
 
-Add screenshots of important sections of your portfolio.
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/e9a34ce9-9c58-4ed8-9b89-cd0fbbaaed2e" />
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/6ce3aa96-0965-4c81-a43d-cdc48a6f18d4" />
 
----
 
 ## 11. Future Improvements
 
