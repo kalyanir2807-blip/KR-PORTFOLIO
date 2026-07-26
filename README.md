@@ -255,7 +255,7 @@ Describe any testing performed, such as:
 | Issue | Cause | Solution |
 |---------|---------|---------|
 |animations not trigerring correctly |incorrect event handling |Refined JavaScript event listeners and animation timing |
-| | | |
+|misaligned sections |CSS spacing inconsistencies |Standardized margins, padding, and flex/grid alignment |
 
 ---
 
@@ -263,9 +263,9 @@ Describe any testing performed, such as:
 
 ### Deployment Steps
 
-1. <step>
-2. <step>
-3. <step>
+1. Completed development and tested all features locally.
+2. Uploaded the project to a GitHub repository
+3. Deployed the portfolio using GitHub Pages and verified the live version across multiple devices.
 
 ### Production URL
 
@@ -289,6 +289,10 @@ Add screenshots of important sections of your portfolio.
 
 ## 11. Future Improvements
 
-- <improvement>
-- <improvement>
-- <improvement>
+Add more advanced 3D interactions and object animations.
+
+Integrate a downloadable resume and project case studies.
+
+Include a blog or engineering journal to share technical insights.
+
+Add a visitor analytics dashboard to understand user engagement.
